@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5995B2321A28F4E003292CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5995B2221A28F4E003292CE /* AppDelegate.swift */; };
+		D5995B2521A28F4E003292CE /* AccordianViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5995B2421A28F4E003292CE /* AccordianViewController.swift */; };
+		D5995B2821A28F4E003292CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5995B2621A28F4E003292CE /* Main.storyboard */; };
+		D5995B2A21A28F5A003292CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5995B2921A28F5A003292CE /* Assets.xcassets */; };
+		D5995B2D21A28F5A003292CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5995B2B21A28F5A003292CE /* LaunchScreen.storyboard */; };
+		D5995B3821A28F5A003292CE /* AccordianTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5995B3721A28F5A003292CE /* AccordianTests.swift */; };
+		D5995B4321A28F5A003292CE /* AccordianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5995B4221A28F5A003292CE /* AccordianUITests.swift */; };
+		D5ACB3C121F8739900C25639 /* AccordianTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ACB3C021F8739900C25639 /* AccordianTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5995B3421A28F5A003292CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5995B1721A28F4E003292CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5995B1E21A28F4E003292CE;
+			remoteInfo = Accordian;
+		};
+		D5995B3F21A28F5A003292CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5995B1721A28F4E003292CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5995B1E21A28F4E003292CE;
+			remoteInfo = Accordian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5995B1F21A28F4E003292CE /* Accordian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accordian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5995B2221A28F4E003292CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5995B2421A28F4E003292CE /* AccordianViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordianViewController.swift; sourceTree = "<group>"; };
+		D5995B2721A28F4E003292CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5995B2921A28F5A003292CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5995B2C21A28F5A003292CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5995B2E21A28F5A003292CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5995B3321A28F5A003292CE /* AccordianTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccordianTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5995B3721A28F5A003292CE /* AccordianTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordianTests.swift; sourceTree = "<group>"; };
+		D5995B3921A28F5A003292CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5995B3E21A28F5A003292CE /* AccordianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccordianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5995B4221A28F5A003292CE /* AccordianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordianUITests.swift; sourceTree = "<group>"; };
+		D5995B4421A28F5A003292CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5ACB3C021F8739900C25639 /* AccordianTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccordianTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5995B1C21A28F4E003292CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5995B3021A28F5A003292CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5995B3B21A28F5A003292CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5995B1621A28F4E003292CE = {
+			isa = PBXGroup;
+			children = (
+				D5995B2121A28F4E003292CE /* Accordian */,
+				D5995B3621A28F5A003292CE /* AccordianTests */,
+				D5995B4121A28F5A003292CE /* AccordianUITests */,
+				D5995B2021A28F4E003292CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5995B2021A28F4E003292CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5995B1F21A28F4E003292CE /* Accordian.app */,
+				D5995B3321A28F5A003292CE /* AccordianTests.xctest */,
+				D5995B3E21A28F5A003292CE /* AccordianUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5995B2121A28F4E003292CE /* Accordian */ = {
+			isa = PBXGroup;
+			children = (
+				D5995B2221A28F4E003292CE /* AppDelegate.swift */,
+				D5995B2421A28F4E003292CE /* AccordianViewController.swift */,
+				D5ACB3C021F8739900C25639 /* AccordianTableViewCell.swift */,
+				D5995B2621A28F4E003292CE /* Main.storyboard */,
+				D5995B2921A28F5A003292CE /* Assets.xcassets */,
+				D5995B2B21A28F5A003292CE /* LaunchScreen.storyboard */,
+				D5995B2E21A28F5A003292CE /* Info.plist */,
+			);
+			path = Accordian;
+			sourceTree = "<group>";
+		};
+		D5995B3621A28F5A003292CE /* AccordianTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5995B3721A28F5A003292CE /* AccordianTests.swift */,
+				D5995B3921A28F5A003292CE /* Info.plist */,
+			);
+			path = AccordianTests;
+			sourceTree = "<group>";
+		};
+		D5995B4121A28F5A003292CE /* AccordianUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5995B4221A28F5A003292CE /* AccordianUITests.swift */,
+				D5995B4421A28F5A003292CE /* Info.plist */,
+			);
+			path = AccordianUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5995B1E21A28F4E003292CE /* Accordian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5995B4721A28F5A003292CE /* Build configuration list for PBXNativeTarget "Accordian" */;
+			buildPhases = (
+				D5995B1B21A28F4E003292CE /* Sources */,
+				D5995B1C21A28F4E003292CE /* Frameworks */,
+				D5995B1D21A28F4E003292CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Accordian;
+			productName = Accordian;
+			productReference = D5995B1F21A28F4E003292CE /* Accordian.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5995B3221A28F5A003292CE /* AccordianTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5995B4A21A28F5A003292CE /* Build configuration list for PBXNativeTarget "AccordianTests" */;
+			buildPhases = (
+				D5995B2F21A28F5A003292CE /* Sources */,
+				D5995B3021A28F5A003292CE /* Frameworks */,
+				D5995B3121A28F5A003292CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5995B3521A28F5A003292CE /* PBXTargetDependency */,
+			);
+			name = AccordianTests;
+			productName = AccordianTests;
+			productReference = D5995B3321A28F5A003292CE /* AccordianTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5995B3D21A28F5A003292CE /* AccordianUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5995B4D21A28F5A003292CE /* Build configuration list for PBXNativeTarget "AccordianUITests" */;
+			buildPhases = (
+				D5995B3A21A28F5A003292CE /* Sources */,
+				D5995B3B21A28F5A003292CE /* Frameworks */,
+				D5995B3C21A28F5A003292CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5995B4021A28F5A003292CE /* PBXTargetDependency */,
+			);
+			name = AccordianUITests;
+			productName = AccordianUITests;
+			productReference = D5995B3E21A28F5A003292CE /* AccordianUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5995B1721A28F4E003292CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Shalini;
+				TargetAttributes = {
+					D5995B1E21A28F4E003292CE = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					D5995B3221A28F5A003292CE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D5995B1E21A28F4E003292CE;
+					};
+					D5995B3D21A28F5A003292CE = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = D5995B1E21A28F4E003292CE;
+					};
+				};
+			};
+			buildConfigurationList = D5995B1A21A28F4E003292CE /* Build configuration list for PBXProject "Accordian" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5995B1621A28F4E003292CE;
+			productRefGroup = D5995B2021A28F4E003292CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5995B1E21A28F4E003292CE /* Accordian */,
+				D5995B3221A28F5A003292CE /* AccordianTests */,
+				D5995B3D21A28F5A003292CE /* AccordianUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5995B1D21A28F4E003292CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5995B2D21A28F5A003292CE /* LaunchScreen.storyboard in Resources */,
+				D5995B2A21A28F5A003292CE /* Assets.xcassets in Resources */,
+				D5995B2821A28F4E003292CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5995B3121A28F5A003292CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5995B3C21A28F5A003292CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5995B1B21A28F4E003292CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5995B2521A28F4E003292CE /* AccordianViewController.swift in Sources */,
+				D5995B2321A28F4E003292CE /* AppDelegate.swift in Sources */,
+				D5ACB3C121F8739900C25639 /* AccordianTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5995B2F21A28F5A003292CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5995B3821A28F5A003292CE /* AccordianTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5995B3A21A28F5A003292CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5995B4321A28F5A003292CE /* AccordianUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5995B3521A28F5A003292CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5995B1E21A28F4E003292CE /* Accordian */;
+			targetProxy = D5995B3421A28F5A003292CE /* PBXContainerItemProxy */;
+		};
+		D5995B4021A28F5A003292CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5995B1E21A28F4E003292CE /* Accordian */;
+			targetProxy = D5995B3F21A28F5A003292CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5995B2621A28F4E003292CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5995B2721A28F4E003292CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5995B2B21A28F5A003292CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5995B2C21A28F5A003292CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5995B4521A28F5A003292CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5995B4621A28F5A003292CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5995B4821A28F5A003292CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E64456VFA3;
+				INFOPLIST_FILE = Accordian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.Accordian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5995B4921A28F5A003292CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E64456VFA3;
+				INFOPLIST_FILE = Accordian/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.Accordian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5995B4B21A28F5A003292CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E64456VFA3;
+				INFOPLIST_FILE = AccordianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.AccordianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Accordian.app/Accordian";
+			};
+			name = Debug;
+		};
+		D5995B4C21A28F5A003292CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E64456VFA3;
+				INFOPLIST_FILE = AccordianTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.AccordianTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Accordian.app/Accordian";
+			};
+			name = Release;
+		};
+		D5995B4E21A28F5A003292CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E64456VFA3;
+				INFOPLIST_FILE = AccordianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.AccordianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Accordian;
+			};
+			name = Debug;
+		};
+		D5995B4F21A28F5A003292CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E64456VFA3;
+				INFOPLIST_FILE = AccordianUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = test.AccordianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Accordian;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5995B1A21A28F4E003292CE /* Build configuration list for PBXProject "Accordian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5995B4521A28F5A003292CE /* Debug */,
+				D5995B4621A28F5A003292CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5995B4721A28F5A003292CE /* Build configuration list for PBXNativeTarget "Accordian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5995B4821A28F5A003292CE /* Debug */,
+				D5995B4921A28F5A003292CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5995B4A21A28F5A003292CE /* Build configuration list for PBXNativeTarget "AccordianTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5995B4B21A28F5A003292CE /* Debug */,
+				D5995B4C21A28F5A003292CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5995B4D21A28F5A003292CE /* Build configuration list for PBXNativeTarget "AccordianUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5995B4E21A28F5A003292CE /* Debug */,
+				D5995B4F21A28F5A003292CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5995B1721A28F4E003292CE /* Project object */;
+}

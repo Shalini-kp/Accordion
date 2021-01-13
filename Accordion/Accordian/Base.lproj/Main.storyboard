@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Accordian View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="AccordianViewController" customModule="Accordian" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hh7-Go-gIZ">
+                                <rect key="frame" x="16" y="35" width="343" height="612"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell opaque="NO" clipsSubviews="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" showsReorderControl="YES" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="2" indentationWidth="0.0" reuseIdentifier="accordianTableCellId" rowHeight="78" id="nGT-tG-n5a" customClass="AccordianTableViewCell" customModule="Accordian" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="343" height="78"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="nGT-tG-n5a" id="GhX-cg-s67">
+                                            <rect key="frame" x="0.0" y="0.0" width="310" height="77.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SUV-9d-Z2R">
+                                                    <rect key="frame" x="20" y="27" width="47" height="23.5"/>
+                                                    <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="20"/>
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="heightClass=regular-widthClass=regular">
+                                                        <fontDescription key="fontDescription" name="DINAlternate-Bold" family="DIN Alternate" pointSize="25"/>
+                                                    </variation>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Jwl-e9-FaN">
+                                                    <rect key="frame" x="285" y="20" width="20" height="37.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="20" id="tmJ-lp-nr6"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <color key="tintColor" red="0.93725490199999995" green="0.95686274510000002" blue="0.96862745100000003" alpha="1" colorSpace="calibratedRGB"/>
+                                            <constraints>
+                                                <constraint firstItem="Jwl-e9-FaN" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="SUV-9d-Z2R" secondAttribute="trailing" multiplier="4:3" constant="8" symbolic="YES" id="Aha-4e-fzv"/>
+                                                <constraint firstItem="Jwl-e9-FaN" firstAttribute="top" secondItem="GhX-cg-s67" secondAttribute="top" constant="20" id="E2K-Xq-1Jk"/>
+                                                <constraint firstItem="SUV-9d-Z2R" firstAttribute="centerY" secondItem="GhX-cg-s67" secondAttribute="centerY" id="OI8-Lg-S5s"/>
+                                                <constraint firstAttribute="trailing" secondItem="Jwl-e9-FaN" secondAttribute="trailing" constant="5" id="SSH-4q-cD1"/>
+                                                <constraint firstItem="Jwl-e9-FaN" firstAttribute="centerY" secondItem="GhX-cg-s67" secondAttribute="centerY" id="csi-CM-NHt"/>
+                                                <constraint firstItem="SUV-9d-Z2R" firstAttribute="leading" secondItem="GhX-cg-s67" secondAttribute="leadingMargin" constant="5" id="f9J-5F-prK"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="separatorInset" minX="44" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <connections>
+                                            <outlet property="accordianImageView" destination="Jwl-e9-FaN" id="fLE-nF-f8d"/>
+                                            <outlet property="accordianTitleText" destination="SUV-9d-Z2R" id="bwW-CF-sqN"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="c2f-we-2xc"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Jar-60-CRl"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hh7-Go-gIZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="EDd-2w-Pf7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hh7-Go-gIZ" secondAttribute="bottom" constant="20" id="Vjy-0L-tiT"/>
+                            <constraint firstItem="hh7-Go-gIZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="vxs-Z5-2fr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hh7-Go-gIZ" secondAttribute="trailing" constant="16" id="zP2-1t-jPj"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="accordianTableView" destination="hh7-Go-gIZ" id="ruK-xM-GOE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="61.600000000000001" y="26.53673163418291"/>
+        </scene>
+    </scenes>
+</document>
